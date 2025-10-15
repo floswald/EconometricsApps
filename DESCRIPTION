@@ -1,17 +1,17 @@
-Package: ScPoApps
+Package: EconometricsApps
 Type: Package
-Title: ScPoApps
+Title: EconometricsApps
 Date: 2020-08-24
 Version: 0.2
 Authors@R: c(
-    person("Florian", "Oswald", email = "florian.oswald@sciencespo.fr", role = c("aut","cre")),
+    person("Florian", "Oswald", email = "florian.oswald@unito.it", role = c("aut","cre")),
     person("Vincent", "Viers", email = "vincent.viers@sciencespo.fr", role = "ctb"),
     person("Xinyu", "Dai", email = "xinyu.dai@sciencespo.fr", role = "ctb"),
     person("Pierre", "Villedieu", email = "pierre.villedieu@sciencespo.fr", role = "ctb"))
 Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
-Description: This the R package for econometrics course apps at SciencesPo.
-URL: https://github.com/ScPoEcon/ScPoApps
+Description: This the R package for econometrics course apps.
+URL: https://github.com/floswald/EconometricsApps
 Imports: 
     shiny (>= 1.2.0),
     learnr,
@@ -25,10 +25,10 @@ Imports:
     AER,
     magick,
     dplyr,
-    tidyverse
+    tidyverse,
+    shinytest
 Suggests:
-  shinytest,
-  testthat
+    testthat
 RoxygenNote: 7.2.3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
