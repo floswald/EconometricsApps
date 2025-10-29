@@ -31,7 +31,7 @@ In order to participate in the course and to use the course material, you need t
 
 ```R
 if (!require(devtools)) {install.packages("devtools"); library(devtools)}
-install_github(repo = "ScPoEcon/ScPoApps")
+install_github(repo = "floswald/EconometricsApps")
 ```
 
 ### Shiny Apps
