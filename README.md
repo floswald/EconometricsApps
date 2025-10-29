@@ -1,10 +1,8 @@
-# `R` package `ScPoApps`
+# `R` package `EconometricsApps`
 
-This is the git repo for undergraduate Econometrics Apps at SciencesPo.
+This is the git repo for undergraduate Econometrics Apps by Florian Oswald.
 
-**Book?** If you are looking for the book, that's in the [ScPoEconometrics](https://github.com/ScPoEcon/ScPoEconometrics) repo.  
-
-**Slides?** If you are looking for the slides, they are in the [ScPoEconometrics-Slides](https://github.com/ScPoEcon/ScPoEconometrics-Slides) repo.
+**Slides?** If you are looking for the slides, they are in the [Econometrics-Slides](https://github.com/floswald/Econometrics-Slides) repo.
 
 ## Contents
 
@@ -41,7 +39,7 @@ install_github(repo = "ScPoEcon/ScPoApps")
 A key part of this course are a series of interactive applications (or *apps*) that we developed with the `shiny` framework. You launch the apps from a running `R` session on your computer. The app will run in your web browser. You launch an app like this from `R`:
 
 ```R
-library(ScPoApps)   # load our library
+library(EconometricsApps)   # load our library
 launchApp('SSR_cone')       # runs the `SSR_cone` app in browser
 
 launchApp()                 # no arg produces an error that shows all available apps
@@ -61,7 +59,7 @@ Here is a screenshot of the `SSR_cone` app:
 In order to run the accompanying tutorials you would type, for example:
 
 ```R
-library(ScPoApps)
+library(EconometricsApps)
 runTutorial("chapter3")
 ```
 
